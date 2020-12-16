@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+  }
+
+.container1{ 
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url('images/banner_img.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+    
+   
+    
+}
+.openbtn{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0px 13px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    color: white;
+    
+}
+.openbtn:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.4s;
+}
+
+#mySidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#mySidenav a {
+    padding: 8px 8px 8px 32px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  #mySidenav a:hover{
+      color: white;
+      transition: 0.3s ease-in;
+  }
+  #mySidenav .social-media a{
+      display: inline;
+      padding: 0;
+      margin: 0 0 0 20px;
+      color: white;
+      
+      
+  }
+  #mySidenav .social-media a:hover{
+      /* background-color: white; */
+      color: blue;
+  }
+  #mySidenav .social-media{
+      margin-left: 15px;
+      margin-bottom: 15px;
+  }
+.closebtn{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+}
+.closebtn div{
+    color: white;
+}
+#contain{
+    transition: margin-left .5s;
+    padding: 16px;
+    display: flex;
+    
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.image{
+    height: 155px;
+    width: 160px;
+    border-radius: 50%;
+}
+.main_image{
+    margin-top: 120px;
+}
+.side_image{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+#typed{
+    color: white;
+    font-size: 25px;
+    
+}
+.sec_para{
+    display: flex;
+    
+}
+.type{
+    margin-right: 10px;
+}
+.container3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.quotes{
+    color: white;
+    font-size: 20px;
+}
+.link{
+    position: absolute;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%);
+    margin-top: 40px;
+}
+
+/*----------------------------- end of Header style----------------------------- */
+.container4{
+    background-color: rgb(252, 237, 252);
+    height: auto;
+    
+    
+}
+.about-img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 1px 14px 8px #888888;
+
+}
+.about-image{
+    /* margin-right: 100px; */
+    padding: 0 40px;
+}
+.main-div{
+    display: flex;
+    
+}
+.bio{
+    padding: 0 40px;
+}
+.heading{
+    padding: 15px;
+}
+/* .h-line{
+    width: 12%;
+    text-align: center;
+    margin-left: 467px;
+} */
+
+.container5{
+    
+    /* background-color: rgb(190, 184, 184); */
+    padding-top: 50px;
+    height: 100%;
+}
+.facts-heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.facts{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    
+}
+.facts1{
+    display: flex;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+.fontawsm{
+    padding-right: 30px;
+}
+.skill-heading{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.skill-container{
+    
+    background-color: #fff;
+    margin: 20px;
+
+    
+}
+.skill-container p{
+    font-weight: bold;
+}
+.skill{
+    text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  border: none;
+  
+}
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.python {width: 60%; background-color: #808080;}
+
+
+.container6{
+    /* background-color: black; */
+    
+    margin-bottom: 40px;
+
+}
+
+.client-heading{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+.client-heading h1{
+    font-weight: 1000;
+}
+
+/* .container6-1{
+    height: 900px;
+} */
+.container7{
+    /* background-color: rgb(175, 167, 167); */
+    height: 100vh;
+    
+}
+.service-heading{
+    padding-top: 60px;
+}
+
+/* .container8{
+    background-color: rgb(233, 179, 206);
+
+} */
+
+.contact{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.ph-no, .email{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+.container9{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.copyright_para{
+    color: white;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    #mySidenav {padding-top: 15px;}
+    #mySidenav a {font-size: 18px;}
+  }

@@ -1,0 +1,63 @@
+@media screen and (max-width: 900px){
+
+.main-div{
+    flex-direction: column;
+}
+
+.about-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  }
+
+.bio{
+    padding-top: 30px;
+}
+.quotes{
+    font-size: 15px;
+}
+.facts{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 750px){
+    .about-img{
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        width: 50vw;
+        }
+
+}
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
+}
+
+
+
+
