@@ -20,7 +20,7 @@ window.onload = function () {
     strings: ["Full Stack Web Developer",
       "Freelancer",
       "Singer",
-      "And always be Positive :)"],
+      "And web designer :)"],
     backSpeed: 15,
     smartBackspace: false,
     backDelay: 1200,
